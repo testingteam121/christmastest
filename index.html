@@ -12,6 +12,14 @@
                 UnityLoader.compatibilityCheck=function(e,t,r){t();};
 
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Christmas_build_v1.json", {onProgress: UnityProgress});
+         function mute()
+        {
+            gameInstance.SendMessage("SoundManager","muteAll");
+        }
+         function unmute()
+        {
+            gameInstance.SendMessage("SoundManager","unMuteAll");
+        }
     </script>
 </head>
 <body>
