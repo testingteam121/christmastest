@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "GiftySanta",
+"dataUrl": "ChritmasGame_v5.data.unityweb",
+"wasmCodeUrl": "ChritmasGame_v5.wasm.code.unityweb",
+"wasmFrameworkUrl": "ChritmasGame_v5.wasm.framework.unityweb",
+"asmCodeUrl": "ChritmasGame_v5.asm.code.unityweb",
+"asmMemoryUrl": "ChritmasGame_v5.asm.memory.unityweb",
+"asmFrameworkUrl": "ChritmasGame_v5.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
